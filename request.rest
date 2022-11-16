@@ -1,12 +1,156 @@
 //Destination Request
 
-GET http://localhost:5500/destination
+GET http://localhost:5000/destination
 
 ###
-GET http://localhost:5500/destination/3
+GET http://localhost:5000/destination/3
+
 
 ###
-POST http://localhost:5500/destination
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎Air Terjun Tumimperas",
+    "Alamat": "Pinaras, Kecamatan Tomohon Selatan, Kota Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "10000",
+    "Deskripsi": "Air Terjun Tumimperas menjadi tempat berlibur wajib bagi wisatawan yang berada di Sulawesi Utara. Kondisi sekitar air terjun masih sangat terjaga keasriannya, hal ini bisa dilihat dari jernihnya air yang mengalir, bersihnya udara di sekitar air terjun dan lingkungan yang bersih tentunya."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎Amphitheater Woloan",
+    "Alamat": "Woloan Satu Utara, Tomohon Barat, Kota Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "25000",
+    "Deskripsi": "Amphitheater Woloan dibangun pada tahun 2004, tempat ini memiliki sebuah perpustakaan yang menyimpan banyak sejarah tentang Woloan dan Minahasa. Dari tempat ini, kamu bisa menyaksikan pemandangan Gunung Lakon yang sangat indah dan menarik."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎Bukit Doa Mahawu",
+    "Alamat": "Kakaskasen Tiga, Kecamatan Tomohon Utara, Kota Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "20000",
+    "Deskripsi": "Bukit Doa Tomohon merupakan salah satu objek wisata alam yang juga menjadi tempat wisata religi. Khususnya untuk umat Kristiani yang berada di Tomohon, Sulawesi Utara. Bukit Doa Mahawu dibuka pertama kali pada tahun 2006, tepatnya tanggal 14 September bertepatan dengan hari raya Salib Suci."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎Cartens Hills Wawo",
+    "Alamat": "Matani Dua, Tomohon Tengah, Kota Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "30000",
+    "Deskripsi": "Cartens Hills Wawo merupakan salah satu destinasi wisata baru yang pastinya wajib Anda kunjungi ketika hendak berencana melakukan perjalanan wisata seru ke Kota Tomohon. Pasalnya, tempat ini menyuguhkan daya tarik tersendiri yang tentu saja tidak akan mengecewakan pengunjung."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎Danau Linow",
+    "Alamat": "Lahendong Jl. Linow, Tomohon, Sulawesi Utara 95435",
+    "Biaya_Masuk": "35000",
+    "Deskripsi": "Kawasan Danau Linow memiliki udara sejuk dengan keindahan pemandangan alam di sekitarnya. Sesekali, pengunjung akan mendengar kicauan burung di tempat ini. Danau Linow memiliki kadar belerang yang sangat tinggi sehingga menyebabkan warna air danau mudah berubah warna. Air danau dapat menampilkan tiga warna sekaligus, yaitu coklat, hijau terang, dan biru cerah."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎Kai'santi Garden",
+    "Alamat": "Jl. Woloan Kayawu, Woloan Dua, Kecamatan Tomohon Barat, Kota Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "35000",
+    "Deskripsi": "Dari atas puncak bukit Kaisanti kamu dapat menyaksikan keindahan alam yang nyata. Tampak sangat menawan dan memanjakan mata. Siapa saja yang berkunjung ke sana pasti merasa betah untuk berlama-lama."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎Narwastu Hills",
+    "Alamat": "Jl. Wawo, Matani Tiga, Kec. Tomohon Tengah, Kota Tomohon, Sulawesi Utara 95441",
+    "Biaya_Masuk": "30000",
+    "Deskripsi": "Narwastu hills merupakan wisata terbaru di Tomohon, Sulawesi Utara. Sebuah destinasi yang menawarkan beragam spot foto yang instagenic, tempat nongkrong yang nyaman, penginapan dengan view alam pegunungan yang memukau."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎Pagoda Ekayana",
+    "Alamat": "Jl. Sunge No.57, Kakaskasen Tiga, Kecamatan Tomohon Utara, Sulawesi Utara",
+    "Biaya_Masuk": "10000",
+    "Deskripsi": "Berlokasi di Gunung Lokon, tepatnya satu kompleks dengan Vihara Buddhayana tentu saja akan menjadi destinasi favorit ketika berkunjung ke kota satu ini. Dengan bangunan yang tinggi menjulang ini, tentu saja akan menjadi salah satu tempat yang ingin untuk kamu kunjungi ketika berada di Kota Tomohon."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎Puncak Melby'Ls",
+    "Alamat": "Kumelembuay, Kecamatan Tomohon Timur, Kota Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "10000",
+    "Deskripsi": "Puncak Melby’ls menjadi destinasi menarik untuk dikunjungi di Kota Tomohon, Sulawesi Utara. Nama wisata alam ini terus menanjak berkat tawaran seru yang bisa pengunjung dapatkan. Wisatawan akan menikmati keindahan dari atas puncak yang menyegarkan. Rasa penat akibat aktivitas sehari-hari akan hilang seiring dengan tawaran keindahan yang disuguhkan."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎Puncak Temboan Rurukan",
+    "Alamat": "Rurukan I, Kecamatan Tomohon Timur, Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "10000",
+    "Deskripsi": "Bagi anda yang menyukai wisata alam, tempat wisata Rurukan menjadi tujuan yang paling tepat. Di sini para pengunjung akan disuguhkan dengan berbagai keindahan pemandangan alam yang memanjakan mata. Mulai dari hamparan hijau, pemandangan bukit hingga kebun bunga yang berwarna-warni."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎Puncak Tetetana Suluan",
+    "Alamat": "Suluan, Kecamatan Tombulu, Kabupaten Minahasa, Kota Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "10000",
+    "Deskripsi": "Pemandangan empat wilayah daerah di Provinsi Sulawesi Utara bisa dinikmati dari Puncak Tetetana. Bahkan dari atas Puncak Tetetana kamu bisa menyaksikan indahnya Gunung Klabat dan Kaki Dian Minut. Puncak Tetetana juga memiliki taman bunga."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎︎Tekaan Telu Waterfall",
+    "Alamat": "Tinoor Satu, Tomohon Utara, Kota Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "10000",
+    "Deskripsi": "Air Terjun Tekaan Telu merupakan salah satu air terjun yang berlokasi di Tomohon, Sulawesi Utara. Air Terjun ini memiliki nama lain yaitu air terjun regesan ataupun air terjun Tekaan Telu Regesan, yang dimana merupakan obyek wisata alam favorit dari Tomohon."
+}
+
+###
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎︎Tuur Ma'asering Kumelembuai Tomohon",
+    "Alamat": "Kumelembuay, Tomohon Timur, Kota Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "15000",
+    "Deskripsi": "Tuur Ma’asering wisata yang dibuka pada tahun 2020 lalu ini berada di tengah hutan pohon aren atau seho, di sini pula merupakan tempat penyulingan air nira atau saguer. Kemudian dijadikan sebuah bangunan kafe yang berkonsep alam serta mengusung tema kearifan lokal."
+}
+
+###
+POST http://localhost:5000/destination
 Content-Type: application/json
 
 {
@@ -17,7 +161,18 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:5500/destination/2
+POST http://localhost:5000/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎︎︎︎Wale Ne Reideen Rumah Miring Tomohon",
+    "Alamat": "Talete Dua, Kecamatan Tomohon Tengah, Kota Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "10000",
+    "Deskripsi": "Wale Ne Reideen terkenal juga dengan sebutan Rumah Miring. Sekali lagi, Tomohon menyediakan tempat bagi kamu yang hobi berfoto. Kamu bisa puas selfie dengan latar rumah yang unik di sini."
+}
+
+###
+PATCH http://localhost:5000/destination/2
 Content-Type: application/json
 
 {
@@ -25,34 +180,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:5500/destination/2
-
-//Restaurant Request
-
-GET http://localhost:5500/restaurant
-
-###
-GET http://localhost:5500/restaurant/3
-
-###
-POST http://localhost:5500/restaurant
-Content-Type: application/json
-
-{
-    "Nama_Restoran": "Kelapa 171",
-    "Alamat": "Jl. Siswa, lingkungan 4, Walian, Kec. Tomohon Sel., Kota Tomohon, Sulawesi Utara",
-    "Desk": "Kelapa 17 menyajikan hidangan daging terbaik salah satunya sate babi besar dengan panjang 1/2 meter. Bahkan sate panjang tapi rasanya masih sangat enak."
-}
-
-###
-PATCH http://localhost:5000/restaurant/1
-Content-Type: application/json
-
-{
-    "Nama_Restoran": "Ohana Ikan Bakar Seafood",
-    "Alamat": "Jl. SMP Kristen, Paslaten Dua, Kec. Tomohon Tim., Kota Tomohon, Sulawesi Utara",
-    "Desk": "Restoran yang menyediakan banyak sekali menu seafood dan terkenal dengan ikan bakarnya. Tidak hanya itu, restoran ini juga menyediakan berbagai macam hidangan daging seperti ayam bakar sehingga anda yang bukan pencinta makanan laut bisa merasakan menu lain yang tersedia di restoran ini."
-}
-
-###
-DELETE http://localhost:5000/restaurant/16
+DELETE http://localhost:5000/destination/2

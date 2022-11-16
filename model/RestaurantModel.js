@@ -6,7 +6,7 @@ const { DataTypes } = Sequelize;
 const Travel = db.define('restaurant', {
     Nama_Restoran: DataTypes.STRING,
     Alamat: DataTypes.STRING,
-    Desk: DataTypes.STRING,
+    Deskripsi: DataTypes.STRING,
 }, {
     freezeTableName: true
 });
