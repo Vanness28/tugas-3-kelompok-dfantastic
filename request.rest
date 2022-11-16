@@ -26,3 +26,33 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:5500/destination/2
+
+//Restaurant Request
+
+GET http://localhost:5500/restaurant
+
+###
+GET http://localhost:5500/restaurant/3
+
+###
+POST http://localhost:5500/restaurant
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "Kelapa 171",
+    "Alamat": "Jl. Siswa, lingkungan 4, Walian, Kec. Tomohon Sel., Kota Tomohon, Sulawesi Utara",
+    "Desk": "Kelapa 17 menyajikan hidangan daging terbaik salah satunya sate babi besar dengan panjang 1/2 meter. Bahkan sate panjang tapi rasanya masih sangat enak."
+}
+
+###
+PATCH http://localhost:5000/restaurant/1
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "Ohana Ikan Bakar Seafood",
+    "Alamat": "Jl. SMP Kristen, Paslaten Dua, Kec. Tomohon Tim., Kota Tomohon, Sulawesi Utara",
+    "Desk": "Restoran yang menyediakan banyak sekali menu seafood dan terkenal dengan ikan bakarnya. Tidak hanya itu, restoran ini juga menyediakan berbagai macam hidangan daging seperti ayam bakar sehingga anda yang bukan pencinta makanan laut bisa merasakan menu lain yang tersedia di restoran ini."
+}
+
+###
+DELETE http://localhost:5000/restaurant/16
