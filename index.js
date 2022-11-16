@@ -10,4 +10,4 @@ app.use (DestinationRoute);
 app.use (RestaurantRoute);
 
 app.get("/",(req, res) => res.send("<h1>Hello World</h1>"));
-app.listen(5000, () => console.log("server running on port 5000"));
+app.listen(5500, () => console.log("server running on port 5500"));

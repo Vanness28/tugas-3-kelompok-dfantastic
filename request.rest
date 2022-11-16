@@ -1,12 +1,23 @@
 //Destination Request
 
-GET http://localhost:5000/destination
+GET http://localhost:5500/destination
 
 ###
-GET http://localhost:5000/destination/3
+GET http://localhost:5500/destination/3
 
 ###
-POST http://localhost:5000/destination
+POST http://localhost:5500/destination
+Content-Type: application/json
+
+{
+    "Nama_Wisata": "︎",
+    "Alamat": "",
+    "Biaya_Masuk": "",
+    "Deskripsi": ""
+}
+
+###
+PATCH http://localhost:5500/destination/2
 Content-Type: application/json
 
 {
@@ -14,12 +25,4 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:5000/destination/2
-Content-Type: application/json
-
-{
-    
-}
-
-###
-DELETE http://localhost:5000/destination/2
+DELETE http://localhost:5500/destination/2
