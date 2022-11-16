@@ -117,61 +117,6 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/destination
-Content-Type: application/json
-
-{
-    "Nama_Wisata": "︎︎︎︎︎Puncak Tetetana Suluan",
-    "Alamat": "Suluan, Kecamatan Tombulu, Kabupaten Minahasa, Kota Tomohon, Sulawesi Utara",
-    "Biaya_Masuk": "10000",
-    "Deskripsi": "Pemandangan empat wilayah daerah di Provinsi Sulawesi Utara bisa dinikmati dari Puncak Tetetana. Bahkan dari atas Puncak Tetetana kamu bisa menyaksikan indahnya Gunung Klabat dan Kaki Dian Minut. Puncak Tetetana juga memiliki taman bunga."
-}
-
-###
-POST http://localhost:5000/destination
-Content-Type: application/json
-
-{
-    "Nama_Wisata": "︎︎︎︎︎︎Tekaan Telu Waterfall",
-    "Alamat": "Tinoor Satu, Tomohon Utara, Kota Tomohon, Sulawesi Utara",
-    "Biaya_Masuk": "10000",
-    "Deskripsi": "Air Terjun Tekaan Telu merupakan salah satu air terjun yang berlokasi di Tomohon, Sulawesi Utara. Air Terjun ini memiliki nama lain yaitu air terjun regesan ataupun air terjun Tekaan Telu Regesan, yang dimana merupakan obyek wisata alam favorit dari Tomohon."
-}
-
-###
-POST http://localhost:5000/destination
-Content-Type: application/json
-
-{
-    "Nama_Wisata": "︎︎︎︎︎Tuur Ma'asering Kumelembuai Tomohon",
-    "Alamat": "Kumelembuay, Tomohon Timur, Kota Tomohon, Sulawesi Utara",
-    "Biaya_Masuk": "15000",
-    "Deskripsi": "Tuur Ma’asering wisata yang dibuka pada tahun 2020 lalu ini berada di tengah hutan pohon aren atau seho, di sini pula merupakan tempat penyulingan air nira atau saguer. Kemudian dijadikan sebuah bangunan kafe yang berkonsep alam serta mengusung tema kearifan lokal."
-}
-
-###
-POST http://localhost:5000/destination
-Content-Type: application/json
-
-{
-    "Nama_Wisata": "︎︎︎︎Valentine Hills",
-    "Alamat": "Jl. Woloan Kayawu, Woloan Dua, Tomohon Barat, Kota Tomohon, Sulawesi Utara",
-    "Biaya_Masuk": "15000",
-    "Deskripsi": "Valentine Hills adalah Tempat Wisata di Tomohon yang berada di kawasan puncak yang sudah pasti sangat asri. Wisata yang tergolong cukup baru ini menawarkan keindahan pemandangan dari atas yang menawan."
-}
-
-###
-POST http://localhost:5000/destination
-Content-Type: application/json
-
-{
-    "Nama_Wisata": "︎︎︎︎Wale Ne Reideen Rumah Miring Tomohon",
-    "Alamat": "Talete Dua, Kecamatan Tomohon Tengah, Kota Tomohon, Sulawesi Utara",
-    "Biaya_Masuk": "10000",
-    "Deskripsi": "Wale Ne Reideen terkenal juga dengan sebutan Rumah Miring. Sekali lagi, Tomohon menyediakan tempat bagi kamu yang hobi berfoto. Kamu bisa puas selfie dengan latar rumah yang unik di sini."
-}
-
-###
 PATCH http://localhost:5000/destination/2
 Content-Type: application/json
 
@@ -181,3 +126,122 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:5000/destination/2
+
+//Restaurant Request
+
+GET http://localhost:5000/restaurant
+
+###
+GET http://localhost:5000/restaurant/3
+
+###
+POST http://localhost:5000/restaurant
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "Green Garden",
+    "Alamat": "Jl. Smp No.2, Kakaskasen Satu, Kec. Tomohon Utara, Kota Tomohon, Sulawesi Utara",
+    "Deskripsi": "Restoran ini menyediakan babi panggang yang enak. Selain itu, menu ikannya juga segar dan lezat. Lokasi restoran ini cukup terpencil namun lingkungan sekitar sangat asri dan ditambah dengan pemandangan Gunung Lokon yang tampak jelas dari restoran ini."
+}
+
+###
+POST http://localhost:5000/restaurant
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "Ohana Ikan Bakar Seafood",
+    "Alamat": "Jl. SMP Kristen, Paslaten Dua, Kec. Tomohon Tim., Kota Tomohon, Sulawesi Utara",
+    "Deskripsi": "Restoran yang menyediakan banyak sekali menu seafood dan terkenal dengan ikan bakarnya. Tidak hanya itu, restoran ini juga menyediakan berbagai macam hidangan daging seperti ayam bakar sehingga anda yang bukan pencinta makanan laut bisa merasakan menu lain yang tersedia di restoran ini."
+}
+
+###
+POST http://localhost:5000/restaurant
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "Alang Alang Cafe & Resto",
+    "Alamat": "Kakaskasen Tiga, Tomohon Utara, Kota Tomohon, Sulawesi Utara",
+    "Deskripsi": "Salah satu cafe dan resto di Tomohon yang direkomentasi untuk dikunjungi adalah cafe alang-alang. Tempatnya lumayan luas, suasana restonya sangat nyaman dan sejuk yang dipenuhi dengan alang-alang yang menjadi icon dari restoran ini. Menu makanan dan minuman yang disediakan juga cukup bervariasi dengan harga yang terjangkau."
+}
+
+###
+POST http://localhost:5000/restaurant
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "Gardenia Country Inn",
+    "Alamat": "Jl. Kakaskasen No.II, Kakaskasen Dua, Kec. Tomohon Utara, Kota Tomohon, Sulawesi Utara",
+    "Deskripsi": "Sesuai dengan namanya, Gardenia, restoran ini memang terletak di tengah kebun bunga yang indah. Pengunjung tak hanya dimanja lidahnya dengan makanan yg menunya cukup lengkap, namun mata pun juga dimanjakan karena keindahan pemandangan kebun bunganya."
+}
+
+###
+POST http://localhost:5000/restaurant
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "Waroeng Mie Djakarta",
+    "Alamat": "Matani Tiga, Tomohon Tengah, Kota Tomohon, Sulawesi Utara",
+    "Deskripsi": "Jika Anda pencinta mie, maka Waroeng Mie Djakarta bisa menjadi tempat terbaik untuk Anda mengisi perut. Tempat makan ini tidak hanya menyediakan mie namun juga aneka ragam nasi tersedia sehingga tidak perlu bingung jika tidak ingin memesan mie."
+}
+
+###
+POST http://localhost:5000/restaurant
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "Elmonts Coffee and Roastery",
+    "Alamat": "Kolongan Satu, Tomohon Tengah, Kota Tomohon, Sulawesi Utara",
+    "Deskripsi": "Tempat yang indah untuk minum kopi nikmat dari berbagai daerah tersedia. Kopi yang enak karena ada campuran asli Elmont menjadikan ciri khas dari tempat ini."
+}
+
+###
+POST http://localhost:5000/restaurant
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "House Of Kitty",
+    "Alamat": "Kakaskasen Dua, Tomohon Utara, Kota Tomohon, Sulawesi Utara",
+    "Deskripsi": "Terletak di kota Tomohon dengan lokasi strategis, cafenya menampilkan tema Hello Kitty yang jarang di temui di Indonesia. Pilihan menu sangat beragam sehingga pengunjung tidak perlu bingung untuk memilih makanan."
+}
+
+###
+POST http://localhost:5000/restaurant
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "D-Linow Restaurant",
+    "Alamat": "Lingkungan 7, Lahendong, Tomohon, Indonesia, Sulawesi Utara",
+    "Deskripsi": "D-Linow Restaurant merupakan tempat kuliner di Tomohon yang paling indah dan hits. Anda dapat menikmati hidangan dengan view Danau Linow dan pepohonan di sekitarnya. Karena memiliki pemandangan alam yang sangat indah, tempat ini cocok banget untuk foto-foto kekinian."
+}
+
+###
+POST http://localhost:5000/restaurant
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "Kelapa 17 Tomohon",
+    "Alamat": "Jl. Siswa, lingkungan 4, Walian, Kec. Tomohon Sel., Kota Tomohon, Sulawesi Utara",
+    "Deskripsi": "Rumah makan yang pertama kali menyajikan menu kepala babi tore. Tidak hanya itu, banyak aneka ragam daging yang disuguhkan. Tempatnya juga sangat luas dan lokasi tempat yang mudah dijangkau."
+}
+
+###
+POST http://localhost:5000/restaurant
+Content-Type: application/json
+
+{
+    "Nama_Restoran": "Sineleyan Restaurant",
+    "Alamat": "Jl. Raya Tomohon, Talete Satu, Kec. Tomohon Tengah, Kota Tomohon, Sulawesi Utara",
+    "Deskripsi": "Restoran halal yang menyajikan makanan dengan spesialisasi ikan air tawar. Hidangan makanan laut yang sangat enak dan segar dengan daging ikan yang lembut serta bumbu ikan yang nikmat."
+}
+
+###
+PATCH http://localhost:5000/restaurant/2
+Content-Type: application/json
+
+{
+   
+
+}
+
+###
+DELETE http://localhost:5000/restaurant/2
