@@ -10,10 +10,10 @@ POST http://localhost:5500/destination
 Content-Type: application/json
 
 {
-    "Nama_Wisata": "︎",
-    "Alamat": "",
-    "Biaya_Masuk": "",
-    "Deskripsi": ""
+    "Nama_Wisata": "︎︎︎︎Valentine Hills",
+    "Alamat": "Jl. Woloan Kayawu, Woloan Dua, Tomohon Barat, Kota Tomohon, Sulawesi Utara",
+    "Biaya_Masuk": "15000",
+    "Deskripsi": "Valentine Hills adalah Tempat Wisata di Tomohon yang berada di kawasan puncak yang sudah pasti sangat asri. Wisata yang tergolong cukup baru ini menawarkan keindahan pemandangan dari atas yang menawan."
 }
 
 ###
