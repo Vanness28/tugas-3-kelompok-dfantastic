@@ -113,7 +113,7 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:6000/destination/2
+PATCH http://localhost:6000/destination
 Content-Type: application/json
 
 {
@@ -121,7 +121,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:6000/destination/2
+DELETE http://localhost:6000/destination
 
 
 
@@ -231,7 +231,7 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:6000/restaurant/2
+PATCH http://localhost:6000/restaurant
 Content-Type: application/json
 
 {
@@ -240,7 +240,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:6000/restaurant/2
+DELETE http://localhost:6000/restaurant
 
 
 
@@ -385,7 +385,542 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:6000/detail_restaurant/2
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Tuna Bakar Rica",
+    "Kategori": "Makanan",
+    "Harga": "35000",
+    "Nama_Restaurant": "Alang Alang Cafe & Resto"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Beef Teriyaki",
+    "Kategori": "Makanan",
+    "Harga": "40000",
+    "Nama_Restaurant": "Alang Alang Cafe & Resto"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Australian Sirloin",
+    "Kategori": "Makanan",
+    "Harga": "115000",
+    "Nama_Restaurant": "Alang Alang Cafe & Resto"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Teh Manis",
+    "Kategori": "Minuman",
+    "Harga": "10000",
+    "Nama_Restaurant": "Alang Alang Cafe & Resto"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Ice Blend",
+    "Kategori": "Minuman",
+    "Harga": "20000",
+    "Nama_Restaurant": "Alang Alang Cafe & Resto"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Fresh Juice",
+    "Kategori": "Minuman",
+    "Harga": "23000",
+    "Nama_Restaurant": "Alang Alang Cafe & Resto"
+}
+
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Ragey",
+    "Kategori": "Makanan",
+    "Harga": "45000",
+    "Nama_Restaurant": "Gardenia Country Inn"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Ayam Woku",
+    "Kategori": "Makanan",
+    "Harga": "45.000",
+    "Nama_Restaurant": "Gardenia Country Inn"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Cap Cay",
+    "Kategori": "Makanan",
+    "Harga": "35000",
+    "Nama_Restaurant": "Gardenia Country Inn"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Watermelon Juice",
+    "Kategori": "Minuman",
+    "Harga": "25000",
+    "Nama_Restaurant": "Gardenia Country Inn"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Ice Lemon Tea",
+    "Kategori": "Minuman",
+    "Harga": "30000",
+    "Nama_Restaurant": "Gardenia Country Inn"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Hot Chocolate",
+    "Kategori": "Minuman",
+    "Harga": "35000",
+    "Nama_Restaurant": "Gardenia Country Inn"
+}
+
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Nasi Goreng",
+    "Kategori": "Makanan",
+    "Harga": "20000",
+    "Nama_Restaurant": "Warong Mie Djakarta"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Mie Hijau Djakarta",
+    "Kategori": "Makanan",
+    "Harga": "19000",
+    "Nama_Restaurant": "Warong Mie Djakarta"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Hot Chocolate",
+    "Kategori": "Makanan",
+    "Harga": "16000",
+    "Nama_Restaurant": "Warong Mie Djakarta"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Teh Pucuk",
+    "Kategori": "Minuman",
+    "Harga": "5000",
+    "Nama_Restaurant": "Warong Mie Djakarta"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Soft Drink",
+    "Kategori": "Minuman",
+    "Harga": "6000",
+    "Nama_Restaurant": "Warong Mie Djakarta"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Kopi Susu",
+    "Kategori": "Minuman",
+    "Harga": "8000",
+    "Nama_Restaurant": "Warong Mie Djakarta"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Nasi Goreng",
+    "Kategori": "Makanan",
+    "Harga": "25000",
+    "Nama_Restaurant": "Elmonts Coffee and Roastery"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Spaghetti",
+    "Kategori": "Makanan",
+    "Harga": "25000",
+    "Nama_Restaurant": "Elmonts Coffee and Roastery"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Pancake",
+    "Kategori": "Makanan",
+    "Harga": "23000",
+    "Nama_Restaurant": "Elmonts Coffee and Roastery"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Single Espresso",
+    "Kategori": "Minuman",
+    "Harga": "20000",
+    "Nama_Restaurant": "Elmonts Coffee and Roastery"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "French  Vanilla Latte",
+    "Kategori": "Minuman",
+    "Harga": "25000",
+    "Nama_Restaurant": "Elmonts Coffee and Roastery"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Mocha Caramel Latte",
+    "Kategori": "Minuman",
+    "Harga": "27000",
+    "Nama_Restaurant": "Elmonts Coffee and Roastery"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Fuyung Hai Babi",
+    "Kategori": "Makanan",
+    "Harga": "45000",
+    "Nama_Restaurant": "House Of Kitty"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Nasi Goreng House Of Kitty",
+    "Kategori": "Makanan",
+    "Harga": "30800",
+    "Nama_Restaurant": "House Of Kitty"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Sop Buntut",
+    "Kategori": "Makanan",
+    "Harga": "56000",
+    "Nama_Restaurant": "House Of Kitty"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Apple Juice",
+    "Kategori": "Minuman",
+    "Harga": "22000",
+    "Nama_Restaurant": "House Of Kitty"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Lime Juice",
+    "Kategori": "Minuman",
+    "Harga": "20000",
+    "Nama_Restaurant": "House Of Kitty"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Tomato Juice",
+    "Kategori": "Minuman",
+    "Harga": "18000",
+    "Nama_Restaurant": "House Of Kitty"
+}
+
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Capcay Kuah Ayam",
+    "Kategori": "Makanan",
+    "Harga": "30000",
+    "Nama_Restaurant": "D-Linow Restaurant"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Cakalang Fufu Goreng Sous",
+    "Kategori": "Makanan",
+    "Harga": "35000",
+    "Nama_Restaurant": "D-Linow Restaurant"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Ayam Bumbu Minahasa",
+    "Kategori": "Makanan",
+    "Harga": "27000",
+    "Nama_Restaurant": "D-Linow Restaurant"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Linow Lake",
+    "Kategori": "Minuman",
+    "Harga": "45000",
+    "Nama_Restaurant": "D-Linow Restaurant"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Ice Americano",
+    "Kategori": "Minuman",
+    "Harga": "22000",
+    "Nama_Restaurant": "D-Linow Restaurant"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Saraba",
+    "Kategori": "Minuman",
+    "Harga": "20000",
+    "Nama_Restaurant": "D-Linow Restaurant"
+}
+
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Rusuk Babi Bakar",
+    "Kategori": "Makanan",
+    "Harga": "46000",
+    "Nama_Restaurant": "Kelapa 17 Tomohon"
+}
+
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Kepala Babi Goreng Madu Utuh",
+    "Kategori": "Makanan",
+    "Harga": "330000",
+    "Nama_Restaurant": "Kelapa 17 Tomohon"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Rusuk Eiffel",
+    "Kategori": "Makanan",
+    "Harga": "200000",
+    "Nama_Restaurant": "Kelapa 17 Tomohon"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Juice Wortel",
+    "Kategori": "Minuman",
+    "Harga": "18000",
+    "Nama_Restaurant": "Kelapa 17 Tomohon"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Es Pisang Ijo",
+    "Kategori": "Minuman",
+    "Harga": "20000",
+    "Nama_Restaurant": "Kelapa 17 Tomohon"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Es Brenebon",
+    "Kategori": "Minuman",
+    "Harga": "20000",
+    "Nama_Restaurant": "Kelapa 17 Tomohon"
+}
+
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Ikan Mujair Woku Jumbo",
+    "Kategori": "Makanan",
+    "Harga": "48000",
+    "Nama_Restaurant": "Sineleyan Restaurant"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Ikan Mas Goreng Besar",
+    "Kategori": "Makanan",
+    "Harga": "60000",
+    "Nama_Restaurant": "Sineleyan Restaurant"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Ikan Mas Kuah Asam Super Jumbo",
+    "Kategori": "Makanan",
+    "Harga": "100000",
+    "Nama_Restaurant": "Sineleyan Restaurant"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Es Jeruk",
+    "Kategori": "Minuman",
+    "Harga": "12.000",
+    "Nama_Restaurant": "Sineleyan Restaurant"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Teh Manis",
+    "Kategori": "Minuman",
+    "Harga": "7000",
+    "Nama_Restaurant": "Sineleyan Restaurant"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Kopi Hitam",
+    "Kategori": "Minuman",
+    "Harga": "7000",
+    "Nama_Restaurant": "Sineleyan Restaurant"
+}
+
+
+###
+PATCH http://localhost:6000/detail_restaurant
 Content-Type: application/json
 
 {
@@ -394,4 +929,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:6000/detail_restaurant/2
+DELETE http://localhost:6000/detail_restaurant
