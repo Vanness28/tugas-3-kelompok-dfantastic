@@ -1,13 +1,9 @@
 //Destination Request
 
-GET http://localhost:5000/destination
+GET http://localhost:6000/destination
 
 ###
-GET http://localhost:5000/destination/3
-
-
-###
-POST http://localhost:5000/destination
+POST http://localhost:6000/destination
 Content-Type: application/json
 
 {
@@ -18,7 +14,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/destination
+POST http://localhost:6000/destination
 Content-Type: application/json
 
 {
@@ -29,7 +25,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/destination
+POST http://localhost:6000/destination
 Content-Type: application/json
 
 {
@@ -40,7 +36,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/destination
+POST http://localhost:6000/destination
 Content-Type: application/json
 
 {
@@ -51,7 +47,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/destination
+POST http://localhost:6000/destination
 Content-Type: application/json
 
 {
@@ -62,7 +58,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/destination
+POST http://localhost:6000/destination
 Content-Type: application/json
 
 {
@@ -73,7 +69,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/destination
+POST http://localhost:6000/destination
 Content-Type: application/json
 
 {
@@ -84,7 +80,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/destination
+POST http://localhost:6000/destination
 Content-Type: application/json
 
 {
@@ -95,7 +91,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/destination
+POST http://localhost:6000/destination
 Content-Type: application/json
 
 {
@@ -106,7 +102,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/destination
+POST http://localhost:6000/destination
 Content-Type: application/json
 
 {
@@ -117,7 +113,7 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:5000/destination/2
+PATCH http://localhost:6000/destination/2
 Content-Type: application/json
 
 {
@@ -125,17 +121,17 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:5000/destination/2
+DELETE http://localhost:6000/destination/2
+
+
 
 //Restaurant Request
 
-GET http://localhost:5000/restaurant
+###
+GET http://localhost:6000/restaurant
 
 ###
-GET http://localhost:5000/restaurant/3
-
-###
-POST http://localhost:5000/restaurant
+POST http://localhost:6000/restaurant
 Content-Type: application/json
 
 {
@@ -145,7 +141,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/restaurant
+POST http://localhost:6000/restaurant
 Content-Type: application/json
 
 {
@@ -155,7 +151,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/restaurant
+POST http://localhost:6000/restaurant
 Content-Type: application/json
 
 {
@@ -165,7 +161,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/restaurant
+POST http://localhost:6000/restaurant
 Content-Type: application/json
 
 {
@@ -175,7 +171,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/restaurant
+POST http://localhost:6000/restaurant
 Content-Type: application/json
 
 {
@@ -185,7 +181,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/restaurant
+POST http://localhost:6000/restaurant
 Content-Type: application/json
 
 {
@@ -195,7 +191,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/restaurant
+POST http://localhost:6000/restaurant
 Content-Type: application/json
 
 {
@@ -205,7 +201,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/restaurant
+POST http://localhost:6000/restaurant
 Content-Type: application/json
 
 {
@@ -215,7 +211,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/restaurant
+POST http://localhost:6000/restaurant
 Content-Type: application/json
 
 {
@@ -225,7 +221,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/restaurant
+POST http://localhost:6000/restaurant
 Content-Type: application/json
 
 {
@@ -235,7 +231,7 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:5000/restaurant/2
+PATCH http://localhost:6000/restaurant/2
 Content-Type: application/json
 
 {
@@ -244,4 +240,158 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:5000/restaurant/2
+DELETE http://localhost:6000/restaurant/2
+
+
+
+//Detail Restaurant Request
+
+###
+GET http://localhost:6000/detail_restaurant
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Nasi Campur Hongkong",
+    "Kategori": "Makanan",
+    "Harga": "32000",
+    "Nama_Restaurant": "Green Garden"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Bubur Ayam/Babi",
+    "Kategori": "Makanan",
+    "Harga": "29000",
+    "Nama_Restaurant": "Green Garden"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Nasi Campur Rahang Tuna",
+    "Kategori": "Makanan",
+    "Harga": "45000",
+    "Nama_Restaurant": "Green Garden"
+
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Es Teh Manis / Panas",
+    "Kategori": "Minuman",
+    "Harga": "9000",
+    "Nama_Restaurant": "Green Garden"
+
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Es Kelapa Muda",
+    "Kategori": "Minuman",
+    "Harga": "22000",
+    "Nama_Restaurant": "Green Garden"
+
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Es Kacang Advokat",
+    "Kategori": "Minuman",
+    "Harga": "26000",
+    "Nama_Restaurant": "Green Garden"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Paket Rahang Tuna Sedang",
+    "Kategori": "Makanan",
+    "Harga": "40000",
+    "Nama_Restaurant": "Ohana Ikan Bakar Seafood"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Paket Rahang Tuna Besar",
+    "Kategori": "Makanan",
+    "Harga": "50000",
+    "Nama_Restaurant": "Ohana Ikan Bakar Seafood"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Paket Rahang Tuna Jumbo",
+    "Kategori": "Makanan",
+    "Harga": "80000",
+    "Nama_Restaurant": "Ohana Ikan Bakar Seafood"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "︎︎︎︎Milkshake",
+    "Kategori": "Minuman",
+    "Harga": "15000",
+    "Nama_Restaurant": "Ohana Ikan Bakar Seafood"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Nutrisari",
+    "Kategori": "Minuman",
+    "Harga": "5000",
+    "Nama_Restaurant": "Ohana Ikan Bakar Seafood"
+}
+
+###
+POST http://localhost:6000/detail_restaurant
+Content-Type: application/json
+
+{
+    "Nama_Menu": "Jus Sirsak",
+    "Kategori": "Minuman",
+    "Harga": "20000",
+    "Nama_Restaurant": "Ohana Ikan Bakar Seafood"
+}
+
+###
+PATCH http://localhost:6000/detail_restaurant/2
+Content-Type: application/json
+
+{
+   
+
+}
+
+###
+DELETE http://localhost:6000/detail_restaurant/2
